@@ -1,6 +1,3 @@
-// exports.hello=(req, res)=>{
-//     res.status(200).json({"name":"Mohammad Rejaul karim shohag and Mahabub alam"})
-// }
 
 exports.helloGet = (req, res)=>{
     res.status(200).json({"method":"GET","name":"Mohammad Rejaul kaeim", "fatherName":"Mahabub alam"})
